@@ -2,7 +2,7 @@ import React from 'react';
 import { FaLeaf } from 'react-icons/fa';
 import { MdOutlineShoppingCart } from 'react-icons/md';
 import { FaBars } from 'react-icons/fa6';
-import ResponsiveManu from './Navbar/ResponsiveManu';
+import ResponsiveManu from '../Navbar/ResponsiveManu';
 
 const NavBarManu = [
   {
@@ -31,8 +31,7 @@ const NavBarManu = [
     link: '#',
   },
 ];
-
-const Navbar = () => {
+const Navbarr = () => {
   const [open, setOpen] = React.useState(false);
   return (
     <>
@@ -74,4 +73,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbarr;
